@@ -1,0 +1,30 @@
+main {
+  background: #fff;
+  width: 1009px;
+  height: 1360px;
+
+  margin: 0 auto;
+}
+
+.home-content{
+  padding-top: 67px;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+.paragraph {
+  width: 920px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+
+  text-align: justify;
+
+  padding-bottom: 32px;
+}
+
+.image {
+  margin: auto 230px;
+
+  padding-bottom: 42px;
+}
