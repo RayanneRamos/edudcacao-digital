@@ -3,3 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --watercourse-700: #00715B;
+  --aquamarine-200: #98FFDD;
+  --chalet-green-700: #3D672E;
+  --eden-900: #005C4C;
+  --silver-tree-400: #4EB998;
+  --chateau-green-500: #33B456;
+  --carnation-500: #F83B3B;
+  --shamrock-500: #02C782;
+  --white: #fff;
+  --black: #000;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+
+  background: var(--aquamarine-200);
+}
+
+a {
+  text-decoration: none;
+}
