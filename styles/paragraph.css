@@ -117,6 +117,20 @@ a:hover {
   margin-right: 44px;
 }
 
+.phishing-container {
+  background: #fff;
+  width: 1009px;
+  height: 1516px;
+
+  margin: 0 auto;
+}
+
+.phishing-content {
+  padding-top: 67px;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
 
 h3 {
   color: var(--silver-tree-400);
