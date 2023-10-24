@@ -89,6 +89,20 @@ a:hover {
   margin-right: 44px;
 }
 
+.jogos-online-container {
+  background: #fff;
+  width: 1009px;
+  height: 2886px;
+
+  margin: 0 auto;
+}
+
+.jogos-online-content {
+  padding-top: 67px;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
 h3 {
   color: var(--silver-tree-400);
 
