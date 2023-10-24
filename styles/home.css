@@ -61,7 +61,7 @@ a:hover {
   transform: scale(1.2);
 }
 
-main {
+.home-container {
   background: #fff;
   width: 1009px;
   height: 1360px;
