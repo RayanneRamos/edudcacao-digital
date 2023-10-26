@@ -1,0 +1,66 @@
+.quiz-cyberbullying-container {
+  background: #fff;
+  width: 1240px;
+  height: 835px;
+
+  margin: 50px auto;
+
+  border-radius: 28px;
+  border: 4px solid var(--eden-900);
+}
+
+.quiz-cyberbullying-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+ padding-top: 133px; 
+
+ font-family: 'Nunito Sans', sans-serif;
+ font-size: 38px;
+}
+
+img {
+  padding-top: 54px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap:32px
+}
+
+button {
+  width: 216px;
+  height: 64px;
+
+  margin-top: 76px;
+
+  background: transparent;
+  color: var(--black);
+
+  border: 2px solid var(--eden-900);
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+
+  transition: all 0.4s;
+}
+
+button:nth-child(1) {
+  margin-right: 32px;
+}
+
+button:hover {
+  background: #27E09A;
+  color: var(--white);
+}
