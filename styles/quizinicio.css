@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 .quiz-container {
   background: #fff;
   width: 1240px;
