@@ -41,15 +41,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin-top: 14px;
+
+  font-size: 28px;
+  font-weight: 400;
 }
 
 .image-content {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 #medal {
+  margin-top: 50px;
   margin-bottom: 20px;
   display: none;
 }
@@ -82,6 +89,8 @@ body {
   flex-direction: row;
 
   gap: 32px;
+
+  margin-top: 22px;
 }
 
 #next-btn {
@@ -139,4 +148,26 @@ body {
 }
 .incorrect {
   background: var(--geraldine-300);
+}
+
+.quiz-finish-container {
+  background: var(--white);
+  width: 1240px;
+  height: 835px;
+
+  margin: 50px auto;
+
+  border-radius: 28px;
+  border: 4px solid var(--eden-900);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quiz-finish-title {
+  padding-top: 170px;
+  
+  font-family: 'Nunito-Sans', sans-serif;
+  font-size: 38px;
 }
