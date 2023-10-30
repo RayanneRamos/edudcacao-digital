@@ -221,8 +221,6 @@ function showScore() {
   */
 }
 
-function createFinishPage() {}
-
 function handleNextButton() {
   currentQuestionIndex++;
 
