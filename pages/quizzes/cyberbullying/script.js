@@ -107,9 +107,12 @@ const questions = [
   },
 ];
 
+const titleElement = document.getElementById("title");
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const homeButton = document.getElementById("home-btn");
+const medalImage = document.getElementById("medal");
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -144,6 +147,8 @@ function showQuestion() {
 
 function resetState() {
   nextButton.style.display = "none";
+  medalImage.style.display = "none";
+  homeButton.style.display = "none";
   while (answerButtons.firstChild) {
     answerButtons.removeChild(answerButtons.firstChild);
   }
@@ -169,14 +174,24 @@ function selectAnswer(event) {
   });
 
   nextButton.style.display = "block";
+  homeButton.style.display = "none";
 }
 
 function showScore() {
   resetState();
 
+  titleElement.innerHTML = "Você finalizou o quiz!";
+
+  questionElement.classList.add("score");
   questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+
+  medalImage.style.display = "block";
+
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
+
+  homeButton.innerHTML = "Home";
+  homeButton.style.display = "block";
 }
 
 function handleNextButton() {
@@ -195,6 +210,10 @@ nextButton.addEventListener("click", () => {
   } else {
     startQuiz();
   }
+});
+
+homeButton.addEventListener("click", () => {
+  window.location.href = "/";
 });
 
 startQuiz();
