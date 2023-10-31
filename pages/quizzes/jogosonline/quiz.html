@@ -14,17 +14,23 @@
     <title>Quiz Jogos Onlines</title>
   </head>
   <body>
-    <div class="app-quiz">
-      <h1>Quiz Jogos Onlines</h1>
+    <div id="quiz-content" class="app-quiz">
+      <h1 id="title">Quiz Jogos Onlines</h1>
       <div class="quiz">
         <h2 id="question">Question goes here</h2>
+        <div class="image-content">
+          <img id="medal" src="../../../assets/medal.png" />
+        </div>
         <div id="answer-buttons">
           <button class="btn">Answer 1</button>
           <button class="btn">Answer 2</button>
           <button class="btn">Answer 3</button>
           <button class="btn">Answer 4</button>
         </div>
-        <button id="next-btn">Next</button>
+        <div class="buttons-container">
+          <button id="next-btn" class="score-button">Next</button>
+          <button id="home-btn" class="score-button">home</button>
+        </div>
       </div>
     </div>
     <script src="./script.js"></script>
