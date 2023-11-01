@@ -7,6 +7,9 @@
   justify-content: center;
 
   gap: 62px;
+
+  animation: fadeInLeft;
+  animation-duration: 0.8s;
 }
 
 .card-container {
@@ -26,6 +29,9 @@
 .card-image {
   padding-left: 67px;
   padding-right: 80px;
+
+  animation: zoomInDown;
+  animation-duration: 0.8s;
 }
 
 .card-content {
@@ -51,4 +57,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 600;
+
+  animation: zoomInDown;
+  animation-duration: 0.8s;
 }

@@ -24,4 +24,7 @@ h3 {
   text-align: center;
 
   padding-bottom: 32px;
+
+  animation: fadeInLeft;
+  animation-duration: 0.8s;
 } 

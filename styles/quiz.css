@@ -22,6 +22,9 @@ h3 {
   text-align: center;
 
   padding-bottom: 32px;
+
+  animation: fadeInLeft;
+  animation-duration: 0.8s;
 } 
 
 .cards {
@@ -33,6 +36,9 @@ h3 {
   gap: 62px;
 
   padding-top: 50px;
+
+  animation: fadeInLeft;
+  animation-duration: 0.8s;
 }
 
 .card-container {
@@ -54,6 +60,9 @@ h3 {
   height: 100px;
 
   padding-left: 67px;
+
+  animation: zoomInDown;
+  animation-duration: 0.8s;
 }
 
 .card-content {
@@ -80,4 +89,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 600;
+
+  animation: zoomInDown;
+  animation-duration: 0.8s;
 }
