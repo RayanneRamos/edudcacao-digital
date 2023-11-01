@@ -25,10 +25,16 @@ h1 {
 
  font-family: 'Nunito Sans', sans-serif;
  font-size: 38px;
+  
+ animation: lightSpeedInLeft;
+ animation-duration: 0.8s;
 }
 
 img {
   padding-top: 54px;
+
+  animation: lightSpeedInLeft; 
+  animation-duration: 0.8s; 
 }
 
 .buttons {
