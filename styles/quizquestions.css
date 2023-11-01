@@ -114,7 +114,7 @@ body {
 }
 
 #next-btn:hover {
-  background: #27e09a;
+  background: var(--hover-shamrock-400);
   color: var(--white);
 }
 
@@ -139,7 +139,7 @@ body {
 }
 
 #home-btn:hover {
-  background: #27e09a;
+  background: var(--hover-shamrock-400);
   color: var(--white);
 }
 

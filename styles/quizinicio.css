@@ -71,6 +71,6 @@ button:nth-child(1) {
 }
 
 button:hover {
-  background: #27E09A;
+  background: var(--hover-shamrock-400);
   color: var(--white);
 }

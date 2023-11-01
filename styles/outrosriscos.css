@@ -1,7 +1,7 @@
 @import url('./cards.css');
 
 .outros-riscos-container {
-  background: #fff;
+  background: var(--white);
   width: 1009px;
   height: 1478px;
 

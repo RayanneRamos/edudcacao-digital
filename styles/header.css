@@ -63,7 +63,7 @@ a {
 }
 
 a:hover {
-  color: #59CF79;
+  color: var(--hover-emerald-400);
   transform: scale(1.2);
 }
 

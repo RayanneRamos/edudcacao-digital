@@ -1,5 +1,5 @@
 .jogos-online-container {
-  background: #fff;
+  background: var(--white);
   width: 1009px;
   height: 2886px;
 
