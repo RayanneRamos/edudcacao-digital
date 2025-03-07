@@ -16,7 +16,7 @@
 
 [Site Educação Digital](https://edudcacao-digital.vercel.app/) é um projeto desenvolvido para a matéria do Estágio na faculdade. Tem como ideia ensinar para as crianças os perigos que existem hoje em dia na internet para que elas tenham uma navegação e o uso da internet de forma mais segura.
 
-## 🧪 Technologies
+## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
